@@ -51,3 +51,41 @@ Módulo de controle: operacional
 
 === RESULTADO DA VERIFICAÇÃO ===
 PRONTO PARA DECOLAR
+
+=== ANÁLISE ENERGÉTICA ===
+Capacidade total: 1000 kWh
+Carga atual: 84%
+Consumo estimado na decolagem: 250 kWh
+Perdas energéticas: 5%
+
+Energia disponível inicial: 840.00 kWh
+Perdas energéticas: 42.00 kWh
+Energia útil após perdas: 798.00 kWh
+Autonomia inicial após decolagem: 548.00 kWh
+
+=== ANÁLISE ASSISTIDA POR IA ===
+
+Classificação dos dados: Condição operacional adequada
+Possíveis anomalias: Nenhuma anomalia crítica identificada
+
+Sugestões de risco:
+- Nível de energia em condição segura.
+- Pressão dos tanques em condição estável.
+- Temperatura externa em condição aceitável.
+- Manter supervisão contínua dos módulos críticos até a autorização final de decolagem.
+
+Instruções de execução do código
+
+O projeto foi desenvolvido no Google Colab, mas também pode ser executado em ambiente Jupyter Notebook.
+
+Executando no Google Colab
+Acesse o arquivo .ipynb disponível neste repositório.
+Faça upload do notebook no Google Colab ou abra diretamente por lá.
+Execute as células em ordem, do início ao fim.
+Verifique as saídas geradas em cada etapa.
+Executando localmente
+Instale o Python 3.
+Instale o Jupyter Notebook ou JupyterLab.
+Baixe o arquivo .ipynb deste repositório.
+Abra o terminal na pasta do projeto.
+Execute o comando:
