@@ -36,32 +36,18 @@ Esses dados foram definidos para representar uma condição operacional segura d
 ## Prints da execução
 
 ### Execução do script de verificação
-![Execução do script](print_script.png)
 
-### Execução da análise energética
-![Análise energética](print_energia.png)
+```python
+=== DADOS DE TELEMETRIA ===
+Temperatura interna: 23 °C
+Temperatura externa: 32 °C
+Integridade estrutural: 1
+Nível de energia: 84%
+Pressão dos tanques: 96 psi
+Módulo de navegação: operacional
+Módulo de comunicação: operacional
+Módulo de propulsão: operacional
+Módulo de controle: operacional
 
-### Execução da análise assistida por IA
-![Análise IA](print_ia.png)
-
----
-
-## Instruções de execução do código
-
-O projeto foi desenvolvido no **Google Colab**, mas também pode ser executado em ambiente Jupyter Notebook.
-
-### Executando no Google Colab
-1. Acesse o arquivo `.ipynb` disponível neste repositório.
-2. Faça upload do notebook no Google Colab ou abra diretamente por lá.
-3. Execute as células em ordem, do início ao fim.
-4. Verifique as saídas geradas em cada etapa.
-
-### Executando localmente
-1. Instale o **Python 3**.
-2. Instale o **Jupyter Notebook** ou **JupyterLab**.
-3. Baixe o arquivo `.ipynb` deste repositório.
-4. Abra o terminal na pasta do projeto.
-5. Execute o comando:
-
-```bash
-jupyter notebook
+=== RESULTADO DA VERIFICAÇÃO ===
+PRONTO PARA DECOLAR
